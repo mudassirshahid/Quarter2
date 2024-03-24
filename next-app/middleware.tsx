@@ -21,7 +21,7 @@ function middleware(request:any) {
 //  Task to redirect only about nested route onto login page not about main page  
 
 export const config ={
-    matcher: ["/about/aboutcollege", "/studentlist/:path*"]  //  /about means about page and /about/:path* means about page as well as all inner pages of about
+    matcher: ["/about/aboutcollege"]  //  /about means about page and /about/:path* means about page as well as all inner pages of about
  }
 export default middleware
 
