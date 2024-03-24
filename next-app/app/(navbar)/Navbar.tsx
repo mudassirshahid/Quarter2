@@ -13,7 +13,7 @@ function Navbar() {
             <li><Link href={'/studentlist'}>Student List</Link></li>
             <li><Link href={'/study'}>Study</Link></li>
         </ul>
-        <Link href={'/login'} className='bg-slate-600 p-2 rounded-md md:ml-5 ml-3 md:text-base sm:text-xs text-[0.6rem]'><button>Login</button></Link>
+        <Link href={'/login'} className='bg-slate-600 p-2 rounded-md md:ml-5 ml-3 md:text-base sm:text-xs text-[0.6rem] font-semibold'><button>Login</button></Link>
       </div>
     </div>
   )
